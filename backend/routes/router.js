@@ -12,6 +12,10 @@ const postData = require("../controllers/postData");
 //registration
 router.post("/postData", postData.postData);
 router.post("/updateData", updateData.updateData);
+router.post("/deleteData", deleteData.deleteData);
+router.get("/getData", getData.getData);
+router.post("/sendEmail", sendEmail.sendEmail);
+
 
 
 module.exports = router;

@@ -66,7 +66,7 @@ function HomePage() {
       }
       try{
       await axios
-        .post(`${BASE_URL}/user/sendMail`, selectedRows)
+        .post(`${BASE_URL}/user/sendEmail`, selectedRows)
         .then((res) => {
           if (res.status === 200) {
             setLoader(false);
