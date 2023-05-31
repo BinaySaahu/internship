@@ -1,0 +1,34 @@
+.homepage{
+    background-color:rgb(38 41 49);
+    height: 100vh;
+}
+.homepage_table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    background-color: rgb(68 76 96);
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid rgb(47 52 67);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #4CAF50
+}
+
+.btn_update{
+    margin-right: 5px;
+}
+.btn_add{
+    margin-right: 5px;
+}
+.btn_add,.btn_send{
+    margin-top: 10px;
+}

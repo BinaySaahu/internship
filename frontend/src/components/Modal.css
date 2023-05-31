@@ -1,0 +1,66 @@
+.modal{
+    background:rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw;
+    height: 100vh; */
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 94.4%;
+    width: 96.3%;
+}
+.modal input{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(49 55 71);
+    border: 1px solid rgb(164, 163, 163);
+    border-radius: 10px ;
+    width: 67%;
+}
+.modal input::placeholder{
+    color: rgb(224, 222, 222);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.modal_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+    background-color: rgb(49 55 71);
+    opacity: 1;
+    border-radius: 10px;
+    
+}
+.closebtn{
+    position: relative;
+    left: 246px;
+    cursor: pointer;
+    bottom: 51px;
+}
+.btn_save{
+    background-color: rgb(68 76 96);
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid rgb(47 52 67);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn_save:hover{
+    background-color: #4CAF50;
+}
+.modal_form h1{
+    margin: 0;
+    
+}
