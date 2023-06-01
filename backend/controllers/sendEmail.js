@@ -3,7 +3,7 @@ const mailer = require("../mailer/mailer");
 const sendEmail = async(req,res)=>{
     let array = req.body;
     var mail = {
-        to: "21052245@kiit.ac.in",
+        to: "info@redpositive.in",
         subject: "Data of Selected rows",
         html: `<!DOCTYPE html>
         <html>
